@@ -49,7 +49,7 @@
 .menu__third-name{
     background-color: #E5D198;
 }
-
+/* min-width: 768px max-width: 991px)*/
 @media (min-width: 768px) and (max-width: 991px){
     .menu__list{
         flex-wrap: wrap;
@@ -63,7 +63,7 @@
         width: 100%;
     }
 }
-
+/* max-width: 767px */
 @media (max-width: 767px){
     .menu__list{
         flex-direction: column;

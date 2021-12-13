@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #fff;
+    border-radius: 0;
+    border: 0;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-weight: 500;
+}
+
+.navbar-header {
+    background-color: #999999;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -5rem;
+}
+
+
+/* END HEADER */
+
+.menu__container {
+    padding: 1rem 2rem;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.menu__item {
+    background-color: #999999;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.menu__name {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.menu__text {
+    padding: 0 1.5rem;
+}
+
+.menu__some {
+    display: flex;
+}
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    /* Header */
+    #collapsable-nav a {
+        /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+        /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    /* End Header */
+}
